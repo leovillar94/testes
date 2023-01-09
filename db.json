@@ -1,0 +1,94 @@
+{
+  "usuario": [
+    {
+      "id": 0,
+      "login": "vampeta1",
+      "senha": "123"
+    },
+    {
+      "id": 2,
+      "login": "vampeta3",
+      "senha": "123"
+    },
+    {
+      "id": 3,
+      "login": "vampeta2",
+      "senha": "123"
+    },
+    {
+      "id": 4,
+      "login": "vampeta5",
+      "senha": "123"
+    }
+  ],
+  "dados": [
+    {
+      "id": 0,
+      "produtos": [
+        {
+          "produto": "shampoo",
+          "valor": "R$:30,99"
+        },
+        {
+          "produto": "condicionador",
+          "valor": "R$:20,99"
+        },
+        {
+          "produto": "creme",
+          "valor": "R$:13,99"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "produtos": [
+        {
+          "produto": "omega3",
+          "valor": "R$:55,00"
+        },
+        {
+          "produto": "vitamina D",
+          "valor": "R$:91,28"
+        },
+        {
+          "produto": "colageno",
+          "valor": "R$:158,88"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "produtos": [
+        {
+          "produto": "atadura",
+          "valor": "R$:2,99"
+        },
+        {
+          "produto": "algodao",
+          "valor": "R$:4,09"
+        },
+        {
+          "produto": "soro",
+          "valor": "R$:7,79"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "produtos": [
+        {
+          "produto": "teste",
+          "valor": "R$:2,99"
+        },
+        {
+          "produto": "ao",
+          "valor": "R$:4,09"
+        },
+        {
+          "produto": "ro",
+          "valor": "R$:7,79"
+        }
+      ]
+    }
+  ]
+}
