@@ -7,7 +7,11 @@
       "Nome": "Drogarias Pacheco",
       "email": "drogariaspacheco@gmail.com",
       "unidade": "São Cristóvão",
-      "endereço": "R. São Luiz Gonzaga, 196 - 200 E 204 - São Cristóvão, Rio de Janeiro - RJ, 20910-000"
+      "rua": "São Luiz Gonzaga",
+      "numero": "196",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro",
+      "CEP": "20910-000"
       
     }
   ],
