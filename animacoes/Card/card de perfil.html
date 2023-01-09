@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500');
+
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Josefin Sans', sans-serif;
+         }
+
+         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+         }
+
+         .container {
+            position: relative;
+            width: 1280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+         }
+
+         .container .cards {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            background: linear-gradient(#2196f3, #2196f3 30%, #1d3548 30%, #1d3548);
+            margin: 10px;
+            border-radius: 20px;
+            overflow: hidden;
+         }
+
+         .container .cards .imgBx {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+            z-index: 100000000;
+            border-radius: 20px;
+            overflow: hidden;
+            transform-origin: top;
+         }
+
+         .container .cards:hover .imgBx {
+            transform: translateY(30px) scale(0.5);
+         }
+
+         .container .cards .imgBx img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+
+         .container .cards .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 30px;
+            transform: translateY(100%);
+            transition: 0.5;
+         }
+
+         .container .cards:hover .content {
+            transform: translateY(0);
+         }
+
+         .container .cards .content .details {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+         }
+
+         .container .cards .content .details h2 {
+            color: #fff;
+            font-size: 1.5em;
+            font-weight: 500;
+         }
+
+         .container .cards .content .details h2 span {
+            font-size: 0.8em;
+            font-weight: 400;
+            color: #03a9f4;
+         }
+
+         .social_icons {
+            position: relative;
+            display: flex;
+            margin-top: 5px;
+         }
+
+         .social_icons li {
+            list-style: none;
+            margin: 4px;
+         }
+
+         .social_icons li a {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #294d69;
+            border-radius: 50%;
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.5s;
+         }
+
+         .social_icons li a:hover {
+            transform: rotate(360deg);
+            background: #03a9f4;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cards">
+            <div class="imgBx">
+                <img src="https://i.pinimg.com/originals/85/5b/cc/855bcc9e2b65ab2dc87b062557ff162e.jpg">
+            </div>
+
+            <div class="content">
+                <div class="details">
+                    <h2>John Doe <br> <span>Senior Designer</span></h2>
+                    <ul class="social_icons">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="imgBx">
+                <img src="https://steamuserimages-a.akamaihd.net/ugc/1018320517900183713/6B0087E01C998CE168B0E2B0E122CB0583333A16/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+            </div>
+
+            <div class="content">
+                <div class="details">
+                    <h2>John Doe <br> <span>Senior Designer</span></h2>
+                    <ul class="social_icons">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="imgBx">
+                <img src="https://img.wattpad.com/0e30706451f06c1e5470f530542f3661dd884c61/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5f54616e5066572d725357376d673d3d2d3139312e313663376463656239376663646363393731373233333932313939382e6a7067?s=fit&w=720&h=720">
+            </div>
+
+            <div class="content">
+                <div class="details">
+                    <h2>John Doe <br> <span>Senior Designer</span></h2>
+                    <ul class="social_icons">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="imgBx">
+                <img src="https://cdn.bhdw.net/im/attack-on-titan-eren-yeager-timeskip-wallpaper-41223_w635.webp">
+            </div>
+
+            <div class="content">
+                <div class="details">
+                    <h2>John Doe <br> <span>Senior Designer</span></h2>
+                    <ul class="social_icons">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

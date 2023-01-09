@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: #1d2630;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .pacman::before, .pacman::after {
+            content: '';
+            position: absolute;
+            background: #ffee07;
+            width: 100px;
+            height: 50px;
+            margin-left: -50px;
+            margin-top: -50px;
+            border-radius: 50px 50px 0 0;
+            animation: up 0.4s infinite;
+        }
+
+        .pacman::after {
+            margin-top: -1px;
+            border-radius: 0 0 50px 50px;
+            animation: down 0.4s infinite;
+        }
+
+        .dot {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            margin-top: -5px;
+            margin-left: 30px;
+            border-radius: 50%;
+            background: #ffee07;
+            box-shadow: 40px 0 0 #ffee07, 80px 0 0 #ffee07, 120px 0 0 #ffee07;
+            animation: right_to_left 0.4s infinite;
+            z-index: 99;
+        }
+
+        @keyframes up {
+            0%, 100% {
+                transform: rotate(0);
+            }
+            50% {
+                transform: rotate(-40deg);
+            }
+        }
+
+        @keyframes down {
+            0%, 100% {
+                transform: rotate(0);
+            }
+            50% {
+                transform: rotate(40deg);
+            }
+        }
+
+        @keyframes right_to_left {
+            100% {
+                margin-left: -10px;
+            }
+        }
+
+        .pac {
+            position: relative;
+            z-index: 1;
+        }
+
+        .icon1 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            margin-top: -5px;
+            margin-left: 30px;
+            animation: right_to_left 0.4s infinite;
+            left: 30px;
+        }
+
+        .icon2 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            margin-top: -5px;
+            margin-left: 30px;
+            animation: right_to_left 0.4s infinite;
+            left: 60px;
+        }
+
+        .icon3 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            margin-top: -5px;
+            margin-left: 30px;
+            animation: right_to_left 0.4s infinite;
+            left: 90px;
+        }
+
+        .icon4 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            margin-top: -5px;
+            margin-left: 30px;
+            animation: right_to_left 0.4s infinite;
+            left: 120px;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="pacman"></div>
+        <!-- <div class="dot"></div> -->
+
+        <div class="pac">
+            <ion-icon class="icon1" name="trophy-outline"></ion-icon>
+            <ion-icon class="icon2" name="trophy-outline"></ion-icon>
+            <ion-icon class="icon3" name="trophy-outline"></ion-icon>
+            <ion-icon class="icon4" name="trophy-outline"></ion-icon>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

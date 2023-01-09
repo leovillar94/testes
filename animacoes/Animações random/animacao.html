@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/913e757190.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: #111;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        section .row {
+            position: relative;
+            top: -50;
+            width: 100%;
+            display: flex;
+            padding: 10px 0;
+            white-space: nowrap;
+            font-size: 64px;
+            transform: rotate(-30deg);
+        }
+
+        i {
+            color: rgba(0, 0, 0, 0.5);
+            transition: 1s;
+            padding: 0 5px;
+            user-select:  none;
+            cursor: default;
+        }
+
+        i:hover {
+            transition: 0s;
+            color: #0f0;
+            box-shadow: 0 0 120px #0f0;
+        }
+
+        section .row div {
+            animation: animate1 80s linear infinite;
+            animation-delay: -80s;
+        }
+
+        section .row div:nth-child(2) {
+            animation: animate2 80s linear infinite;
+            animation-delay: -40s;
+        }
+
+        @keyframes animate1 {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes animate2 {
+            0% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-200%);
+            }
+        }
+        
+
+
+
+
+
+        section .row:nth-child(even) div {
+            animation: animate3 80s linear infinite;
+            animation-delay: -80s;
+        }
+
+        section .row:nth-child(even) div:nth-child(2) {
+            animation: animate4 80s linear infinite;
+            animation-delay: -40s;
+        }
+
+        @keyframes animate3 {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        @keyframes animate4 {
+            0% {
+                transform: translateX(-200%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+    <section>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-microchip"></i>
+                <i class="fa-solid fa-gamepad-modern"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-brands fa-bluetooth"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-solid fa-volume"></i>
+                <i class="fa-solid fa-fingerprint"></i>
+                <i class="fa-solid fa-sd-card"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
