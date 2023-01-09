@@ -2,23 +2,13 @@
   "usuario": [
     {
       "id": 0,
-      "login": "vampeta1",
-      "senha": "123"
-    },
-    {
-      "id": 2,
-      "login": "vampeta3",
-      "senha": "123"
-    },
-    {
-      "id": 3,
-      "login": "vampeta2",
-      "senha": "123"
-    },
-    {
-      "id": 4,
-      "login": "vampeta5",
-      "senha": "123"
+      "login": "drogariaspachecosaocristovao",
+      "senha": "12345678",
+      "Nome": "Drogarias Pacheco",
+      "email": "drogariaspacheco@gmail.com",
+      "unidade": "São Cristóvão",
+      "endereço": "R. São Luiz Gonzaga, 196 - 200 E 204 - São Cristóvão, Rio de Janeiro - RJ, 20910-000"
+      
     }
   ],
   "dados": [
@@ -26,67 +16,19 @@
       "id": 0,
       "produtos": [
         {
-          "produto": "shampoo",
-          "valor": "R$:30,99"
+        "produto": "Creme para pentear Salon Lin definição intensa cabelos cacheados e crespos com 1kg",
+        "imagem":"https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fimg.drogaraia.com.br%2Fcatalog%2Fproduct%2Fc%2Fr%2Fcreme-para-pentear-salon-line-defini_o-intensa-1kg-7898623950764-_1_.jpg&w=256&q=75",
+        "marca": "salon line",
+        "valor": "R$13,99",
+        "descrição":"Define e modela os cachos e crespos. Hidrata, desembaraça, controla o frizz e dá brilho. Enriquecido com Óleo de Coco, Óleo de Amêndoas e Mel. Ideal para tipos de cabelo 2ABC, 3ABC e 4ABC (ondulados, cacheados e crespos). Leave-In (Sem Enxágue)."
+        
         },
         {
-          "produto": "condicionador",
-          "valor": "R$:20,99"
-        },
-        {
-          "produto": "creme",
-          "valor": "R$:13,99"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "produtos": [
-        {
-          "produto": "omega3",
-          "valor": "R$:55,00"
-        },
-        {
-          "produto": "vitamina D",
-          "valor": "R$:91,28"
-        },
-        {
-          "produto": "colageno",
-          "valor": "R$:158,88"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "produtos": [
-        {
-          "produto": "atadura",
-          "valor": "R$:2,99"
-        },
-        {
-          "produto": "algodao",
-          "valor": "R$:4,09"
-        },
-        {
-          "produto": "soro",
-          "valor": "R$:7,79"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "produtos": [
-        {
-          "produto": "teste",
-          "valor": "R$:2,99"
-        },
-        {
-          "produto": "ao",
-          "valor": "R$:4,09"
-        },
-        {
-          "produto": "ro",
-          "valor": "R$:7,79"
+        "produto": "Shampoo Pantene liso extremo com 750ml",
+        "imagem":"https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fimg.drogaraia.com.br%2Fcatalog%2Fproduct%2Fs%2Fh%2Fshampoo-pantene-liso-extremo-com-750ml-1.jpg&w=256&q=75",
+        "marca":"Pantene",
+        "valor": "R$30,99",
+        "descrição":"Liso extremo desde o primeiro uso. Ajuda a alinhar cada fibra para obter cabelos extremamente lisos. A coleção foi elaborada com extrato de seda, óleo de amêndoas e provitaminas. A fórmula exclusiva Pro-V da Pantene penetra nos cabelos por uma infusão de ingredientes naturais, vitamina B5 e antioxidantes que ajudam na reposição de lipídios. O extrato de seda é reconhecido pelas propriedades que conferem maciez e poder protetor. O óleo de amêndoas é rico em vitaminas A, B e E, o que o torna um dos óleos mais completos em termos de benefícios para o cabelo. Usando o sistema Pantene"
         }
       ]
     }
