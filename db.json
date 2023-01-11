@@ -35,6 +35,66 @@
         "descrição":"Liso extremo desde o primeiro uso. Ajuda a alinhar cada fibra para obter cabelos extremamente lisos. A coleção foi elaborada com extrato de seda, óleo de amêndoas e provitaminas. A fórmula exclusiva Pro-V da Pantene penetra nos cabelos por uma infusão de ingredientes naturais, vitamina B5 e antioxidantes que ajudam na reposição de lipídios. O extrato de seda é reconhecido pelas propriedades que conferem maciez e poder protetor. O óleo de amêndoas é rico em vitaminas A, B e E, o que o torna um dos óleos mais completos em termos de benefícios para o cabelo. Usando o sistema Pantene"
         }
       ]
-    }
+      
+      {
+        "vitaminaD": [
+            {
+                "id": 1,
+                "produto": "DePURA 500 UI/Gota-10 ML",
+                "imagem": "202474-1200-auto.jpg ",
+                "marca": "Medley",
+                "valor": "R$ 91,28",
+                "descricao": "DePURA é um medicamento à base de vitamina D indicado como suplemento vitamínico em dietas restritivas e inadequadas, na prevenção do raquitismo e na prevenção ou tratamento auxiliar na desmineralização óssea pré e pós-menopausal."
+            }
+        ],
+    
+        
+        "calcio": [
+            {
+                "id": 2,
+                "produto": "Osteo Nutri",
+                "imagem": "osteonutri-600mg-60-comprimidos.jpg",
+                "marca": "Medley",
+                "valor": "R$ 149,41",
+                "descricao": "Osteonutri é um suplemento de cálcio e vitamina D indicado para a prevenção e tratamento auxiliar da desmineralização óssea pré e pós menopausal, e na gestação e aleitamento materno e para prevenção do raquitismo. Também pode ser indicado como suplemento de cálcio e vitamina D em dietas restritivas e inadequadas."
+            }
+        ],
+    
+        
+        "Colageno": [
+            {
+                "id": 3,
+                "produto": "Mobility 30 Sachês",
+                "imagem": "7891058003968.jpg.",
+                "marca": "Sandoz",
+                "valor": "R$ 158,88",
+                "descricao": "Mobility é um suplemento alimentar em pó constituído por peptídeos bioativos obtidos através da hidrólise programada do colágeno. Desenvolvido para repor o nível de colágeno no organismo, promover uma formação eficiente da cartilagem, melhorando o funcionamento das articulações e aliviando desconfortos e incômodos durante a mobilidade.."
+            }
+        ],
+    
+        
+        "Omega3": [
+            {
+                "id": 4,
+                "produto": " Luteína 10mg com 60 Cápsulas",
+                "imagem": " 5437962229_1.jpg",
+                "marca": "Cimed",
+                "valor": "R$ 55,00",
+                "descricao": "Lavitan Luteína é um suplemento de Luteína, Zeaxantina e Ômega 3, desenvolvido especialmente para manter e melhorar a saúde ocular. Lavitan Luteína possui ação antioxidante que protege as células contra os radicais livres, ajuda no bom funcionamento dos olhos, aumenta a imunidade e ajuda a prevenir doenças. Ingerir 2 cápsulas ao dia."
+            }
+        ],
+    
+       
+        "EstimulanteDeApetite": [
+            {
+                "id": 5,
+                "produto": "Biotônico Fontoura Original com 400ml",
+                "imagem": "large-637673292981924645-6924_2.jpg",
+                "marca": "Mantecorp",
+                "valor": "R$ 33,69",
+                "descricao": "Biotônico Fontoura é um suplemento de ferro utilizado para complementar a alimentação diária e estimular o apetite. Também auxilia na imunidade e energia, sem possuir açúcares."
+            }
+        ]
+    }    
   ]
 }
